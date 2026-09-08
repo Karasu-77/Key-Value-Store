@@ -8,7 +8,6 @@ from typing import Dict, Optional
 
 from protocollo import Operation, Request, Reply, firma_messaggio, verifica_messaggio
 
-
 class Client_kv:
 
     def __init__(self, client_id: str, k: int, node_ids: list[str],
