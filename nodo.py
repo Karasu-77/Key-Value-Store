@@ -9,7 +9,6 @@ from protocollo import (
     Operation, Request, PrePrepare, Prepare, Commit, Reply,
     ViewChange, NewView, digest_operazione, firma_messaggio, verifica_messaggio )
 
-
 #lo store applicativo, eseguito solo dopo il commit pbft
 class Store_chiave:
 
