@@ -10,7 +10,6 @@ from client import Client_kv
 
 BASE_PORT = 9000
 
-
 def costruisci_cluster(k: int, comportamenti_bizantini: dict[str, str] | None = None,
                         request_timeout: float = 2.0):
     comportamenti_bizantini = comportamenti_bizantini or {}
