@@ -3,7 +3,6 @@ from __future__ import annotations
 from nodo import Nodo, Voce_log
 from protocollo import Prepare, Reply, firma_messaggio
 
-
 class Nodo_bizantino(Nodo):
 
     def __init__(self, *args, behavior: str = "silent", **kwargs):
