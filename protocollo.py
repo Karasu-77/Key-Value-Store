@@ -25,7 +25,6 @@ def digest_operazione(op: Operation) -> str:
     ).encode("utf-8")
     return hashlib.sha256(payload).hexdigest()
 
-
 #messaggi protocollo
 @dataclass
 class Request:
