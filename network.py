@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 #librerie per creare il canale di comunicazione
 import json
 import socket
